@@ -1,0 +1,69 @@
+## Project overview: 
+
+In this project, we are going to utilize Python and descriptive statistics concepts to explore data associated with bike share systems for three big cities in the United States—Chicago, New York City, and Washington. 
+We will use python to answer some interesting basic statistical questions about the data.
+Moreover, we will provide a user interactive experience in the terminal to ask about and represent these statistics.
+
+## Bicycle-sharing system: 
+
+It is a system that allows you to rent bikes for a reasonable amount of money.
+In this system, you can take the bike from one point (station) and then return it to another point (another station) _ that belongs to the system of course after the end of your trip or maybe return to the same starting point again, it depends on the system itself.
+In the past years, the bicycle sharing system has developed and spread widely in many cities of the world.
+As we mentioned before, in this project we will deal specifically with three major cities, Chicago, New York City, and Washington.
+
+## What do you need to compleate this project: 
+
+To complete this project, you need 
+1. Python 3, NumPy and Pandas installed using Anaconda.
+2. Any tex editor
+3. Terminal appication
+
+## Dataset overview: 
+
+In this project, we will work on data provided by Motivate, One of the bike sharing system s providers for many major cities in the United States of America, to uncover bike share usage patterns. 
+We are going to compare the system usage between three large cities: Chicago, New York City, and Washington.
+The data is randomly selected for the first six months of 2017 are provided for all three cities.
+Of course You will need the three city dataset files:
+1. [chicago.csv](https://drive.google.com/file/d/1jlFUFeYXkGjvAxB9_sJGT9xP2PJ-h_e5/view?usp=share_link)
+2. [new_york_city.csv](https://drive.google.com/file/d/1lg-5HhPSALPfaLTjvsBOjR-FPlI93Ap9/view?usp=share_link)
+3. [washington.csv](https://drive.google.com/file/d/11h3BcHlc9LFFhX8hQ4xisOVFL8K3BdFI/view?usp=share_link)
+
+## Statistical measures we will compute: 
+
+By using python we will compute some basic and important statistical measures 
+ which we will mention briefly in the next section 
+
+We need to compute :
+
+1. Popular times of travel (times occurs most often in the start time)
+  - most common month
+  - most common day of week
+  - most common hour of day
+
+2. Popular stations and trip
+  - most common start station
+  - most common end station
+  - most common trip from start to end (most frequent combination of start station and end station)
+
+3. Trip duration
+  - total travel time
+  - average travel time
+
+4. User info
+
+  - counts of each user type
+  - counts of each gender (only available for NYC and Chicago)
+  - earliest, most recent, most common year of birth (only available for NYC and Chicago)
+
+## Descriptive statistics measures: 
+
+In order to be able to proceed in this project, we must first be familiar with descriptive statistics
+What is descriptive statistics?
+We can define descriptive statistics simply as brief descriptive numbers that summarize a particular data set. This data may be ether a population or a sample.
+For our project We need to be familiar with two main types of descriptive statistics:
+
+1- measures of central tendency: mean(average), median and mode , 
+    for more details check this link
+2- measures of spread :  range, quartiles and the interquartile range, 
+     variance and standard deviation, , for more details check this link
+Of course, we will not be able to cover them in detail here, but the mentioned resources(links) will help you.
